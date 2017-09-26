@@ -1,6 +1,6 @@
 {
   "name": "unitcalc",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "license": "MPL-2.0",
   "description": "Calculate the `rem`'s from unit values",
   "keywords": [
@@ -13,7 +13,7 @@
     "baseline",
     "unit"
   ],
-  "repository": "github:yldio/joyent-portal",
+  "repository": "github:yldio/unitcalc",
   "main": "dist/unitcalc.umd.js",
   "jsnext:main": "dist/unitcalc.es.js",
   "module": "dist/unitcalc.es.js",
@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "lodash.flatten": "^4.4.0",
+    "lodash.isnan": "^3.0.2",
     "remcalc": "^1.0.8"
   },
   "devDependencies": {
@@ -41,6 +42,7 @@
     "eslint": "^4.5.0",
     "eslint-config-joyent-portal": "3.0.0",
     "nyc": "^11.1.0",
+    "prettier": "^1.7.0",
     "tap-xunit": "^1.7.0"
   },
   "nyc": {
