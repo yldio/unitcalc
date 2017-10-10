@@ -1,8 +1,11 @@
 # unitcalc
 
+[![npm](https://img.shields.io/npm/v/unitcalc.svg?style=flat-square)](https://www.npmjs.com/package/unitcalc)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg?style=flat-square)](https://opensource.org/licenses/MPL-2.0)
-[![npm](https://img.shields.io/npm/v/unitcalc.svg?style=flat-square)](https://npmjs.com/package/unitcalc)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+[![David](https://img.shields.io/david/yldio/unitcalc.svg?style=flat-square)](https://david-dm.org/yldio/unitcalc)
+[![David](https://img.shields.io/david/dev/yldio/unitcalc.svg?style=flat-square)](https://david-dm.org/yldio/unitcalc?type=dev)
 
 Calculate the `rem`'s from unit values.
 

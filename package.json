@@ -1,6 +1,6 @@
 {
   "name": "unitcalc",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MPL-2.0",
   "description": "Calculate the `rem`'s from unit values",
   "keywords": [
@@ -20,8 +20,8 @@
   "entry": "src/index.js",
   "scripts": {
     "lint": "eslint . --fix",
+    "fmt": "prettier --write --single-quote src/*.js",
     "test": "bup && cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text ava",
-    "test-ci": "cross-env NODE_ENV=test nyc --report-dir=$CIRCLE_ARTIFACTS/unitcalc --reporter=lcov --reporter=text ava --tap | tap-xunit > $CIRCLE_TEST_REPORTS/test/unitcalc.xml",
     "build": "bup",
     "prepublish": "bup"
   },
@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "ava": "^0.22.0",
+    "babel-eslint": "^8.0.1",
     "babel-plugin-istanbul": "^4.1.4",
     "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
     "babel-plugin-transform-es2015-parameters": "^6.24.1",
@@ -39,8 +40,16 @@
     "babel-register": "^6.26.0",
     "bup": "^1.0.9",
     "cross-env": "^5.0.5",
-    "eslint": "^4.5.0",
+    "eslint": "^4.8.0",
     "eslint-config-joyent-portal": "3.0.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-config-xo-space": "^0.16.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
     "nyc": "^11.1.0",
     "prettier": "^1.7.0",
     "tap-xunit": "^1.7.0"
