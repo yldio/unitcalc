@@ -18,6 +18,7 @@
   "jsnext:main": "dist/unitcalc.es.js",
   "module": "dist/unitcalc.es.js",
   "entry": "src/index.js",
+  "files": ["dist"],
   "scripts": {
     "lint": "eslint . --fix",
     "fmt": "prettier --write --single-quote src/*.js",
