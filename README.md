@@ -1,10 +1,9 @@
 # unitcalc
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/yldio/unitcalc.svg)](https://greenkeeper.io/)
-
 [![npm](https://img.shields.io/npm/v/unitcalc.svg?style=flat-square)](https://www.npmjs.com/package/unitcalc)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg?style=flat-square)](https://opensource.org/licenses/MPL-2.0)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![Greenkeeper badge](https://img.shields.io/badge/greenkeeper-enabled-brightgreen.svg?style=flat-square)](https://greenkeeper.io/)
 
 [![David](https://img.shields.io/david/yldio/unitcalc.svg?style=flat-square)](https://david-dm.org/yldio/unitcalc)
 [![David](https://img.shields.io/david/dev/yldio/unitcalc.svg?style=flat-square)](https://david-dm.org/yldio/unitcalc?type=dev)
