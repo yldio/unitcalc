@@ -12,9 +12,9 @@ Calculate the `rem`'s from unit values.
 
 ## Table of Contents
 
-- [Install](#install)
-- [Usage](#usage)
-- [License](#license)
+* [Install](#install)
+* [Usage](#usage)
+* [License](#license)
 
 ## Install
 
@@ -27,7 +27,6 @@ yarn add --dev unitcalc
 ```js
 import unitcalc from 'unitcalc';
 import assert from 'assert';
-
 
 assert.deepEqual(unitcalc(1, 2, 3, 4), '0.375rem 0.75rem 1.125rem 1.5rem');
 
