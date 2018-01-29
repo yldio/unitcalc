@@ -1,6 +1,6 @@
 {
   "name": "unitcalc",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MPL-2.0",
   "description": "Calculate the `rem`'s from unit values",
   "keywords": [
@@ -18,7 +18,9 @@
   "jsnext:main": "dist/unitcalc.es.js",
   "module": "dist/unitcalc.es.js",
   "entry": "src/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "eslint . --fix --ext .js --ext .md",
     "fmt": "prettier --write --single-quote *.md src/*.js *.json",
@@ -65,7 +67,9 @@
   },
   "ava": {
     "tap": true,
-    "require": ["babel-register"],
+    "require": [
+      "babel-register"
+    ],
     "babel": "inherit"
   }
 }
