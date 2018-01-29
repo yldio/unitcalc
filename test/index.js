@@ -1,5 +1,5 @@
 const test = require('ava');
-const unitcalc = require('../');
+const { default: unitcalc } = require('../');
 
 test('with multiple num arguments', t => {
   t.deepEqual(unitcalc(1, 2, 3, 4), '0.375rem 0.75rem 1.125rem 1.5rem');
