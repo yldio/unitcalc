@@ -1,6 +1,6 @@
 {
   "name": "unitcalc",
-  "version": "1.1.2",
+  "version": "1.2.3",
   "license": "MPL-2.0",
   "description": "Calculate the `rem`'s from unit values",
   "keywords": [
