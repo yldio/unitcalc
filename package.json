@@ -27,7 +27,7 @@
     "ava": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text ava",
     "test": "run-s lint ava size",
     "size": "bundlesize",
-    "prepublish": "bup"
+    "prepublish": "NODE_ENV=production bup"
   },
   "dependencies": {
     "lodash.flatten": "^4.4.0",
@@ -37,6 +37,7 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "babel-eslint": "^8.2.1",
+    "babel-preset-joyent-portal": "^6.0.3",
     "bundlesize": "^0.15.3",
     "bup": "^4.1.6",
     "cross-env": "^5.1.3",
