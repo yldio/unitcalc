@@ -35,7 +35,7 @@
     "remcalc": "^1.0.10"
   },
   "devDependencies": {
-    "ava": "^0.25.0",
+    "ava": "^1.1.0",
     "babel-eslint": "^8.2.1",
     "babel-preset-joyent-portal": "^6.0.3",
     "bundlesize": "^0.17.0",
